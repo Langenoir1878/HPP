@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ITMD 565 LEC 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            h1{
+                color:green;
+            }
+            .blue-text{
+                color:blue;
+            }
+            #main-headline{
+                font-size: 57px;
+                color:pink;
+            }
+            #content-wrapper .blue-text{
+                //nested 
+                color:red;
+            }
+        </style>
+        <script>
+            //java script here, using src to navigate to the actual path
+            
+            /*
+             * multi line comments
+             * 
+             */
+            
+            //console.log("1");//print to hte console
+            
+            function myFunc(name){
+                alert(name);
+            }
+            myFunc('Euphoria');//re-locate this line above the function declaration it wont show up
+            
+            //for loop iteration of an array of 3 elements example:
+            var arr1 = ["A","B","C"];
+            for(var i=0; i< arr1.length; i++){
+                console.log(arr1[i]);
+            }
+            for(var i=arr1.length-1; i>=0; i--){
+                console.log(arr1[i]);//this one runs faster
+            }
+            
+            
+            //do-while loop to guarantee the statement will be executed under certain conditions
+            //button
+                    </script>
+            
+            
+           
+    </head>
+    <body>
+        <div>test # 1</div>
+        <h1>test header I</h1>
+         <button id='mybutton'>press</button>
+            <script>
+            var btn = document.getElementById('mybutton');
+            
+            function myFunctionEvent(){//should add some parameter here...
+                alert('button pressed');
+            }
+            
+            //input 
+        
+        </script>
+        
+        <input id='myinput' type="text">
+        <script>
+            var input=document.getElementById('myinput');
+            
+            
+            
+            
+            
+            
+            
+            
+        </script>
+        <h2 class="blue-text" data-id="">blue text header II</h2>
+        <div id="content-wrapper">
+        <h3 id="main-headline">store data id into HTML tags: data-id</h3> 
+        </div>
+    </body>
+</html>
